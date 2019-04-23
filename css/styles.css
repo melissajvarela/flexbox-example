@@ -1,0 +1,45 @@
+.container{
+    display:flex;
+}
+
+h1{
+justify-content:center;
+}
+
+.box-1 {
+    height:600px;
+    
+}
+
+.box{
+    height:300px;
+    margin:10px;
+    font-size:100px;
+    flex-direction:horizontal;
+    align-items:flex-start;
+}
+
+.one .two{
+
+    width:300px;
+}
+
+.three .four{
+    width:500px;
+}
+
+.one{
+    background-color: green;
+}
+
+.two{
+    background-color: orange;
+}
+
+.three{
+    background-color: pink;
+}
+
+.four{
+    background-color: teal;
+}
